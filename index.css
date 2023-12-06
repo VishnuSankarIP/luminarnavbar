@@ -36,8 +36,10 @@
  
     .carousel-caption {
        right: 0;
-        width:400px;
-        text-align: center; 
+        width:550px;
+        height: 100px;
+        text-align: justify; 
+        margin-bottom: 200px;
     }
     .heading {
         font-size: 20px;
@@ -46,10 +48,12 @@
        
        
        
+       
     }
-    img{
-        image-resolution: 200px;
-    }
+   
+        /* image-resolution: 200px; */
+       
+
     .para{
         font-size: 10px;
         text-align: left;
@@ -69,6 +73,11 @@
     .b1{
         font-size: 8px;
     }
+    .image{
+        width: 100%;
+        height: 300px;
+    }
+  
 
    
 
