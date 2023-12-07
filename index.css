@@ -1,82 +1,140 @@
-.btn1{
+.btn1 {
     background-color: rgb(106, 11, 195);
     color: white;
     border-radius: 30px;
-   border: none;
-   /* padding: 15px; */
-   width: 150px;
-   height: 50px;
-  
-    
+    border: none;
+    /* padding: 15px; */
+    width: 150px;
+    height: 50px;
+
+
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: rgba(106, 11, 195, 0.571);
 }
-.b1{
+
+.b1 {
     margin-right: 500px;
 }
-.carousel-caption{
+
+.carousel-caption {
     margin-right: 500px;
     margin-bottom: 130px;
     text-align: justify;
     width: 810px;
-    
-}
-.heading{
-    font-size: 50px;
-}
-.image{
-    filter: brightness(50%); 
+
 }
 
-@media(orientation:portrait)
-{
+.heading {
+    font-size: 50px;
+}
+
+.image {
+    filter: brightness(50%);
+}
+
+.modal-body {
+    width: 500px;
+    height: 500px;
+
+}
+
+.btn2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn3 {
+    background-color: rgb(106, 11, 195);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn4{
+    background-color: rgb(106, 11, 195);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    height: 40px;
    
-  
- 
+    
+}
+.btn4:hover{
+    background-color: rgb(164, 103, 222);
+}
+
+.headl {
+    color: rgb(106, 11, 195);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.headsub {
+    color: rgba(106, 11, 195, 0.71);
+    margin-left: 20px;
+}
+
+.para2 {
+    margin-left: 20px;
+}
+
+
+@media(orientation:portrait) {
+
+
+
     .carousel-caption {
-       right: 0;
-        width:520px;
+        right: 0;
+        width: 520px;
         height: 100px;
-        text-align: justify; 
+        text-align: justify;
         margin-bottom: 200px;
     }
+
     .heading {
         font-size: 20px;
         text-align: left;
-        margin-right: 270px; 
-       
-    }
-   
-        /* image-resolution: 200px; */
-       
+        margin-right: 270px;
 
-    .para{
+    }
+
+    /* image-resolution: 200px; */
+
+
+    .para {
         font-size: 10px;
         text-align: left;
-       margin-right: 300px;
+        margin-right: 300px;
     }
-    .btn1{
+
+    .btn1 {
         background-color: rgb(106, 11, 195);
         color: white;
         border-radius: 30px;
-       border: none;
-       /* padding: 15px; */
-       width: 75px;
-       height: 25px;
-      
-        
+        border: none;
+        /* padding: 15px; */
+        width: 75px;
+        height: 25px;
+
+
     }
-    .b1{
+
+    .b1 {
         font-size: 8px;
     }
-    .image{
+
+    .image {
         width: 100%;
         height: 300px;
     }
-  
 
-   
+
+
 
 }
-
