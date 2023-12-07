@@ -33,10 +33,15 @@
 .image {
     filter: brightness(50%);
 }
-
+/* 
 .modal-body {
     width: 500px;
     height: 500px;
+
+} */
+.modal-content{
+  width:500px;
+  height:650px;
 
 }
 
@@ -140,3 +145,13 @@
 
 
 }
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
