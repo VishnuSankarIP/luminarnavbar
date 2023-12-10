@@ -62,12 +62,12 @@ body{
     height: 500px;
 
 } */
-.modal-content {
+/* .modal-content {
     width: 450px;
     height: 650px;
 
 
-}
+} */
 
 .btn22 {
     text-align: center;
@@ -136,6 +136,24 @@ body{
     text-align: justify;
 
 }
+.btn5{
+    text-align: center;
+}
+.btn55{
+  
+    
+    color: #7A1DA9;
+    border-radius: 30px;
+    border-color: #7A1DA9;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+
+}
+.btn55:hover{
+    background-color: #7A1DA9;
+    color: white;
+}
 
 
 @media(orientation:portrait) {
@@ -183,7 +201,7 @@ body{
         width: 75px;
         height: 25px;
         margin-top: 20px;
-        margin-left: 60px;
+        margin-left: 20px;
         font-size: 8px;
 
     }
@@ -272,22 +290,12 @@ body{
     .btn5{
         margin-top: 10px;
     }
-    .btn55{
-        
-       
    
-            background-color: #7A1DA9;
-            color: white;
-            border-radius: 30px;
-           
-            /* padding: 15px; */
-            width: 75px;
-            height: 25px;
     
     
         
 
-    }
+    
     .card-text{
         font-size: 12px;
     }
@@ -297,6 +305,12 @@ body{
     .bcard{
         font-size: 8px;
         padding: 5px;
+    }
+    .btn55 {
+       
+        width: 85px;
+        height: 25px;
+        font-size: 8px;
     }
 
 
@@ -361,22 +375,4 @@ span {
     /* box-shadow: 10px 10px 5px rgb(197, 210, 217); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-}
-.btn5{
-    text-align: center;
-}
-.btn55{
-  
-    
-    color: #7A1DA9;
-    border-radius: 30px;
-    border-color: #7A1DA9;
-    background-color: white;
-    width: 150px;
-    height: 50px;
-
-}
-.btn55:hover{
-    background-color: #7A1DA9;
-    color: white;
 }
